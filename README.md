@@ -5,7 +5,7 @@ this is a android recyclerView wheel
 ============================================================================
 
 
-##frist  plugins
+frist  plugins
 ============================================================================
     allprojects {
 		repositories {
@@ -20,11 +20,11 @@ this is a android recyclerView wheel
   
   sure  suggest to  as 
   
-##let's  try to it
+let's  try to it
 ============================================================================
   
-  create your  adapter:
-  ———————————-———————————-———————————-———————————-———————————-———————————-———————————-———————————-
+  ##create your  adapter:
+ 
   
       public class MyAdapter extends BaseAutoAdapter<String> {
 
@@ -33,8 +33,8 @@ this is a android recyclerView wheel
             super(context);
         }
       }
- create your  Delegate:
- ———————————-———————————-———————————-———————————-———————————-———————————-———————————-———————————-
+ ##create your  Delegate:
+
  
     public class SimpleItemDelegate implements IitemDelegate<String> {
 
@@ -76,8 +76,8 @@ this is a android recyclerView wheel
 }
 
 
-last to use it:
-———————————-———————————-———————————-———————————-———————————-———————————-———————————-———————————-———————————-
+##last to use it:
+
 
          MyAdapter adapter = new MyAdapter(this);
         LinearLayoutManager layoutManager = new LinearLayoutManager(this);
