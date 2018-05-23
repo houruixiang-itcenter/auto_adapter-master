@@ -15,7 +15,7 @@ frist  plugins
 	}
   
     dependencies {
-	        compile 'com.github.SoulLines:auto_adapter-master:v1.0.0'
+	        'com.github.houruixiang-itcenter:auto_adapter-master:v1.0.1'
 	}
   
   sure  suggest to  as 
